@@ -155,7 +155,7 @@ export default function ArticleList({ articles }: { articles: Article[] }) {
         {/* 記事一覧 */}
         {filteredArticles.length === 0 ? (
           <div className="rounded-2xl border border-zinc-200 bg-white p-8 text-center text-zinc-500 shadow-sm">
-            条件に合う記事がありません。
+            条件に合う記事が見つかりません。
           </div>
         ) : (
           <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3">
